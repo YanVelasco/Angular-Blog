@@ -5,5 +5,12 @@ main {
     flex-wrap: wrap;
     padding: 1.5rem;
     column-gap: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .articles-small {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
   }
 }
