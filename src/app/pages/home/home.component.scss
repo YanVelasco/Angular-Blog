@@ -1,0 +1,9 @@
+main {
+  .articles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    column-gap: 1.5rem;
+  }
+}

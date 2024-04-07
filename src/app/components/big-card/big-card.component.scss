@@ -1,0 +1,12 @@
+main {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+
+  .big-card__picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
