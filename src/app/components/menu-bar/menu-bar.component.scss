@@ -1,0 +1,21 @@
+.navbar {
+  .navbar-nav {
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+    .nav-item {
+      transition: 0.3s;
+      .nav-link {
+        text-decoration: none;
+        color: #fff;
+        &:hover {
+          transform: scale(1.05);
+          color: #ddd;
+        }
+      }
+    }
+  }
+}
