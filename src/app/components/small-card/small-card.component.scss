@@ -9,7 +9,7 @@ main {
     transform: scale(1.03);
   }
 
-  h2{
+  h2 {
     font-weight: 700;
   }
 
@@ -23,9 +23,10 @@ main {
   .small-card__title__description {
     display: flex;
     flex-direction: column;
-    width: 15rem;
+    width: 11rem;
     text-align: justify;
     transition: color 0.3s ease;
+    gap: 1rem;
 
     &:hover {
       color: #888;
