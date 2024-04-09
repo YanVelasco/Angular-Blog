@@ -1,14 +1,11 @@
 <main>
-  <img
-  src= "{{ photoCover }}"
-  alt="img"
-  class="small-card__picture">
+  <img src="{{ photoCover }}" alt="img" class="small-card__picture" />
   <div class="small-card__title__description">
     <h2>
-      {{ cardTitle }}
+      <a [routerLink]="['content', cardId]">{{ cardTitle }}</a>
     </h2>
     <p>
-      {{ cardDescription }}
+      <a [routerLink]="['content', cardId]">{{ cardDescription }}</a>
     </p>
   </div>
 </main>
